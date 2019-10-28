@@ -1,5 +1,3 @@
-package assignment3;
-
 import java.util.*;
 import java.io.*;
 
@@ -11,7 +9,7 @@ public class SpellChecker{
     }
 
     public void createDictionary(String filename){
-        File file = new File("/home/laxus/dsad/assignment3/"+filename);
+        File file = new File(filename);
         try{
             Scanner s = new Scanner(file);
             while(s.hasNext()){
@@ -39,7 +37,7 @@ public class SpellChecker{
     }
 
     public void spellCheck(String filename){
-        File check = new File("/home/laxus/dsad/assignment3/"+filename);
+        File check = new File(filename);
         try{
             Scanner s = new Scanner(check);
             while(s.hasNext()){
