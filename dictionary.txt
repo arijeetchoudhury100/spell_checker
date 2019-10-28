@@ -1,0 +1,7 @@
+apple
+app
+boy
+cat
+dog
+egg
+fruit
