@@ -128,7 +128,7 @@ public class SpellChecker{
 
     public static void main(String[] args) throws FileNotFoundException{
         SpellChecker sc = new SpellChecker();
-        sc.createDictionary("dictionary.txt");
-        sc.spellCheck("test.txt");
+        sc.createDictionary("");
+        sc.spellCheck("");
     }
 }
